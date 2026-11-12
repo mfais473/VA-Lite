@@ -1,0 +1,26 @@
+{
+  "name": "virtual-assistant-lite",
+  "version": "0.1.0",
+  "description": "Desktop chat-bubble assistant: click the floating logo and type commands.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "node --test \"test/*.test.js\""
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": ">=0.78.0",
+    "@google/genai": "^0.14.0",
+    "@xmldom/xmldom": "^0.8.15",
+    "docx": "^9.15.0",
+    "dotenv": "^16.4.5",
+    "exceljs": "^4.4.0",
+    "fast-glob": "^3.3.3",
+    "jszip": "^3.10.2",
+    "openai": "^7.39.0",
+    "screenshot-desktop": "^1.15.6",
+    "unpdf": "^1.8.1"
+  },
+  "devDependencies": {
+    "electron": "^45.0.0"
+  }
+}

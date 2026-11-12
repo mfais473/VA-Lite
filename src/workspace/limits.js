@@ -1,0 +1,4 @@
+const MAX_READ_BYTES = 512 * 1024;
+const MAX_WRITE_BYTES = 1024 * 1024;
+
+module.exports = { MAX_READ_BYTES, MAX_WRITE_BYTES };
